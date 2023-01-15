@@ -880,8 +880,31 @@ height:120%;
         min-width:30%;
         min-height:20%;
     }
+    /* .community-section{
+        display: block;
+    } */
 }
                                           /* OnePlus Sight Section */
+
+@media (max-width:1200px){
+    .oneplus-sight-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .oneplus-sight-description{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       height:120%;
+    }
+    .sight-img img{
+        display: flex;
+        height:155px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 .oneplus-sight-section{
     display: flex;
     padding:30px;
