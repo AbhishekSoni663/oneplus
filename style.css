@@ -347,8 +347,17 @@ nav ul {
 
 .order-tv-section {
     display: flex;
+    width:580px;
+    height: 400px;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #f8f8f8;
+}
+.order1-tv-section {
+    display: flex;
     /* width:310px; */
-    height: 430px;
+    height: 400px;
+    width:580px;
     align-items: center;
     justify-content:space-between;
     background-color: #f8f8f8;
@@ -406,9 +415,12 @@ nav ul {
     font-size: 30px;
     font-weight: 400;
 }
+.order-tv-img{
+    width:auto;
+}
 
 .order-tv-img img {
-    height: 250px;
+    height:250px;
 }
 
 @media (max-width: 1500px) {
@@ -416,12 +428,18 @@ nav ul {
         width:100%;
         height: auto;
         display: flex;
-        flex-wrap:wrap;
         flex-direction: column;
+        flex-wrap:rowwrap;
     }
-    .order-title{
+    .order-tv-section{
+        width: 100%;
+    }
+    .order1-tv-section{
+        width: 100%;
+    }
+    /* .order-title{
         width:50%;
-    }
+    } */
     .order-tv-img{
         width:100%;
     }
