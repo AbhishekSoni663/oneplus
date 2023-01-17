@@ -233,7 +233,7 @@ nav ul {
     height: 90vh;
 }
 
-@media (max-width: 1800px) and (min-width: 850px) {
+@media (max-width: 1400px) and (min-width: 850px) {
     .latest-mobile-img {
         display: none;
     }
@@ -330,7 +330,7 @@ nav ul {
     margin: 20px 5px;
     background-size: cover;
     display: flex;
-    background-image: url(E:/Abhishek/Project/Project2/OnePlus/image/Mobile.webp);
+    background-image: url(./image/Mobile.webp);
     box-shadow: rgba(50, 47, 47, 0.354) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
