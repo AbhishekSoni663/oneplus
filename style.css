@@ -444,22 +444,33 @@ nav ul {
     }
 }
 @media (max-width:500px) {
+    .order-section{
+        width:100%;
+        height: 100%;
+        display: flex;
+        
+    }
     .order-tv-section{
-        height:100%;
+        width:100%;
     }
     .order1-tv-section{
-        height:100%;
+        width:100%;
     }
     .order-tv-section{
+       display: flex;
+       justify-content: space-between;
+    }
+    .order1-tv-section{
         display: flex;
-        flex-direction: column-reverse;
+        flex-wrap: columnwrap;
+        justify-content: space-between;
     }
     .order-tv-btn{
-        width: 100%;
+        width:100%;
     }
-    .order1-tv-section{
-        display: flex;
-        flex-direction: column-reverse;
+    .order-tv-img{
+        width:100%;
+        display: block;
     }
 }
 
@@ -808,6 +819,7 @@ nav ul {
     .oneplus-about {
         display: flex;
         flex-direction: row;
+        width:100%;
     }
 }
 
@@ -816,25 +828,38 @@ nav ul {
         display: flex;
         flex-wrap: wrap-reverse;
         flex-direction: column;
-        margin: auto;
     }
 
     .about-title {
-        /* min-height: 100%; */
         width: 100%;
+        height:100%;
     }
 
     .about-img {
         width: 100%;
-        height: auto;
         /* background-size: cover; */
         background-position: center;
     }
 
     .about2-img {
         width: 100%;
-        height: auto;
         /* background-size: cover; */
+        background-position: center;
+    }
+}
+@media (max-width:550px){
+    .about-title {
+        width: 100%;
+        height:50%;
+    }
+    .about-img{
+        width:100%;
+        background-position: center;
+        height:500px;
+    }
+    .about2-img{
+        width:100%;
+        height: 500px;
         background-position: center;
     }
 }
