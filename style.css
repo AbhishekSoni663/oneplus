@@ -482,6 +482,34 @@ nav ul {
         display: block;
     }
 }
+@media (max-width:300px){
+    .order-tv-img img {
+        height:220px;
+        display: block;
+    }
+    .order-tv-section{
+        width:100%;
+    }
+    .order1-tv-section{
+        width:100%;
+    }
+    .order-tv-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+     .order1-tv-section{
+         display: flex;
+         justify-content: space-between;
+     }
+     .order-section{
+        width:100%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 /* <!--Product Categories--> */
 
@@ -714,33 +742,33 @@ nav ul {
         display: block;
         /* flex-direction: column-reverse;
         /* align-items: center; */
-        justify-content: center; */
+        justify-content: center; 
         width:100%;
         height:100%;
     }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1300px) {
     .oneplus-img {
         width: 100%;
-        height:200px;
+        height:500px;
     }
 
     .feature-img {
         width: 100%;
-        height:200px;
+        height:500px;
     }
 }
 @media (max-width:500px){
     
     .oneplus-img {
         width: 100%;
-        height:150px;
+        height:250px;
     }
 
     .feature-img {
         width: 100%;
-        height:150px;
+        height:250px;
     }
 }
 
@@ -834,6 +862,7 @@ nav ul {
 
 @media (max-width:950px) {
     .oneplus-about {
+        height:100%;
         display: flex;
         flex-wrap: wrap-reverse;
         flex-direction: column;
@@ -846,13 +875,13 @@ nav ul {
 
     .about-img {
         width: 100%;
-        /* background-size: cover; */
-        background-position: center;
+        background-size: cover;
+       
     }
 
     .about2-img {
         width: 100%;
-        /* background-size: cover; */
+        background-size: cover;
         background-position: center;
     }
 }
@@ -864,11 +893,11 @@ nav ul {
     .about-img{
         width:100%;
         background-position: center;
-        height:500px;
+        height:auto;
     }
     .about2-img{
         width:100%;
-        height: 500px;
+        height: auto;
         background-position: center;
     }
 }
@@ -968,13 +997,13 @@ nav ul {
     .redcable-img {
         width: 100%;
         display: block;
-        background-size: cover;
+        /* background-size: cover; */
     }
 }
 @media (max-width:500px){
     .redcable-img{
         width: 100%;
-        height:200px;
+        height:150px;
     }
     .redcable-description{
         height:100%;
@@ -1187,10 +1216,19 @@ nav ul {
         justify-content: center;
         height: 120%;
     }
+    .oneplus-sight-detail{
+        width:100%;
+    }
 
     .sight-img {
        width:100%;
        display: block;
+    }
+}
+@media (max-width:800px){
+    .sight-img img{
+        width: 100%;
+        height:100px;
     }
 }
 
